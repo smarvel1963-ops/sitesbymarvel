@@ -45,4 +45,9 @@ document.getElementById('inquiryForm').addEventListener('submit',async e=>{
  catch{notice.textContent='Copy the following request and send it by DM or email:\n'+message;notice.style.whiteSpace='pre-wrap'}
 });
 </script>
+<script>/* anonymous visitor count (UseMart counter; no cookies, no IP kept; does nothing while the counter switch is off) */
+(function () { try { var h = location.hostname.replace(/^www\./, ""), s = h === "smarvel1963-ops.github.io" ? "hubs" : h;
+  fetch("https://usemart.net/api/visit", { method: "POST", mode: "cors", credentials: "omit", keepalive: true,
+    headers: { "content-type": "text/plain" }, body: JSON.stringify({ site: s }) }).catch(function () {}); } catch (e) {} })();
+</script>
 </body></html>
